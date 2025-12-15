@@ -1,2 +1,3 @@
 # SoderiaApi
-Api para la soderia. Va a tener todos los endpoints que necesite el programa
+
+Api de un negocio de sodería, contiene todos los endpoints que va a necesitar el programa administrativo
