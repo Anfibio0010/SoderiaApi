@@ -5,6 +5,7 @@ import { RepartoProducto } from './reparto_producto.js';
 @Entity()
 export class Producto extends BaseEntity {
   @Property({ nullable: false })
+  nombre!: string;
   @OneToMany(
     () => RepartoProducto,
     (repartoProducto) => repartoProducto.producto

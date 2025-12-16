@@ -5,7 +5,7 @@ export const orm = await MikroORM.init({
   entities: ['dist/**/*.entity.js'],
   entitiesTs: ['src/**/*.entity.ts'],
   dbName: 'database.sqlite', // Poner la base de datos que se usa en este proyecto
-  clientUrl: 'mysql://root:parmi2003@localhost:3306/nombre_basedatos', // La URL de conexión a la base de datos
+  clientUrl: 'mysql://root:root@127.0.0.1:3306/soderia', // La URL de conexión a la base de datos
   highlighter: new SqlHighlighter(), // Resalta las consultas SQL en la consola para facilitar la lectura
   debug: true, // Habilita el modo de depuración para ver más detalles en los logs
   schemaGenerator: {
